@@ -1,0 +1,44 @@
+
+.wrapper_full
+{
+	width: 100%;
+}
+.wrapperA
+{
+	width: 80%;
+	margin: 0 auto;
+}
+
+.per1
+{	
+	width: 26%;
+	float: left;
+	margin-right: 25px;
+	font-size: 15px;
+}
+.per2
+{	
+	width: 25%;
+	float: left;
+	font-size: 15px;
+	margin-left: 10px;
+	margin-right: 20px;
+}
+.per3
+{
+	margin-left: 20px;
+	width: 25%;
+	float: left;
+	font-size: 15px;
+}
+
+.vission
+{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}
+.mission
+{
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+}

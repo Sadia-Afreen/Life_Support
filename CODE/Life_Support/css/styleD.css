@@ -1,0 +1,74 @@
+.wrapper_full
+{
+	width: 100%;
+}
+
+.form_main{
+	color: red;
+	font-size:19px;
+	
+}
+.form_main input[type=text]
+{
+	background-color: white;
+	height: 18px;
+	width: 200px;
+	border-radius: 5%;
+}
+
+.form_main input[type=number]
+{
+	background-color: white;
+	height: 18px;
+	width: 200px;
+	border-radius: 5%;
+}
+.form_main input[type=submit]
+{
+	background-color: white;
+	height: 28px;
+	width: 85px;
+	border-radius: 5%;
+	font-size: 15px;
+	font-weight: 600;
+	color:red;
+	text-transform: uppercase;
+}
+.form_main input[name=submit]
+{
+	font-size: 15px;
+	font-weight: 600;
+	color:red;
+}
+.form_l
+{
+	color:red;
+	font-size:19px;
+}
+.form_l input[type=text]
+{
+
+	background-color: white;
+	height: 18px;
+	width: 200px;
+	border-radius: 5%;
+}
+.form_l input[type=password]
+{
+	
+	background-color: white;
+	height: 18px;
+	width: 200px;
+	border-radius: 5%;
+}
+
+.form_l input[name=submit]
+{	background-color: white;
+	height: 28px;
+	width: 85px;
+	font-size: 15px;
+	font-weight: 600;
+	color:red;
+	border-radius: 5%;
+	text-transform: uppercase;
+}

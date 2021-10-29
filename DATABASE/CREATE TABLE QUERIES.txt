@@ -1,0 +1,14 @@
+create table Donor(D_ID int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY, D_Age int,D_Name varchar(255),D_Gender varchar(255),D_Weight varchar(255), D_BloodGroup varchar(255),D_Division varchar(255),D_Area varchar(255),D_Email varchar(255),D_Mobile varchar(255));
+create table Patient(P_ID int,P_Name varchar(255),P_Age int,P_Email varchar(255),P_Gender varchar(255),P_Bloodgroup varchar(255),P_Weight int,P_Disease varchar(255),P_Division varchar(255),P_Area varchar(255),P_Mobile_no int,primary key(P_ID));
+create table donor_medical_history(donor_id int AUTO_INCREMENT, smoker varchar(255), aids varchar(255), allergy varchar(255), blood_pressure varchar(255), FOREIGN KEY(donor_id) REFERENCES donor(D_ID));
+
+CREATE TABLE Donor_Login (
+  id int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+  D_Username varchar(255) NOT NULL,
+  D_Email varchar(255) NOT NULL,
+  D_Password varchar(255) NOT NULL
+);
+
+create table Donation_history(donation_id int AUTO_INCREMENT, Hospital_name varchar(255) ,Date date,foreign key(donation_id) references Donor(D_ID))
+
+Create TABLE donor_status(D_ID int AUTO_INCREMENT, status varchar(255), FOREIGN KEY(D_ID) REFERENCES donor(D_ID));

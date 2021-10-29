@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.banner
+{
+	background-color: silver;
+	background-image: url("../images/img3.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	height:625px;
+	width: 1365px;
+
+}
+.clear
+{
+	clear: both;
+}
+/*.img
+{
+	background-image: url("../images/doc11new2.png");
+	background-repeat: no-repeat;
+	height: 625px;
+	width: 1330px;
+	background-attachment: fixed;
+	background-position: left-top;
+	background-size: 360px 625px;
+}*/
+.menu ul
+{   
+	float:right;
+	list-style: none;
+	position: sticky;
+}
+.menu ul li
+{
+	float: left;
+	margin-top: 100px;
+height:37px;
+line-height: 32px;
+padding-top: 2px;
+width:148px;
+background-color: lightcoral;
+text-align: center;
+display: block;
+border:1px solid green;
+ transition: all linear .2s;
+ position: sticky;
+ margin-right: 1px;
+
+}
+a
+{
+	text-decoration: none;
+	color: navy;
+
+}
+.menu ul li ul li
+{	
+	display:none ;
+	margin: 0;
+
+	height:40px;
+	line-height: 40px;
+	width:148px;
+	
+	 transition: all linear .3s;
+}
+.menu ul li:hover ul li
+{
+	display: block;
+	 transition: all linear .3s;
+}
+.menu ul li ul
+{
+margin-top: 6px;
+transition: all linear .4s;
+}
+
+.name h1
+{
+	float:right;
+	font-size: 65px;
+	margin-right: 150px;
+padding-top: 20px;
+color:crimson;
+
+}
+.name p
+{	
+	font-size: 20px;
+	color: crimson;
+	position: absolute;
+	padding-top: 90px;
+	padding-left: 870px;
+}
+.name img
+{
+	float: right;
+	padding-left:800px;
+	margin-top: -85px;
+	
+}
+.contact
+{
+	background-color: transparent;
+	height: 180px;
+	width: 382px;
+	float: right;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	font-size: 18px;
+}
+.contact p
+{
+
+}
